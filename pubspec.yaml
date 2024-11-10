@@ -1,0 +1,32 @@
+name: goldapp
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <3.5.0"  # Adjusted to match your current Dart SDK version (3.4.3)
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icon/icon.png" # Adjusted to remove the extra space
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/
